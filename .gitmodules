@@ -1,0 +1,3 @@
+[submodule "svdistic"]
+	path = eigen3_svd
+	url = https://github.com/dapqa/svdistic.git

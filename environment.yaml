@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.5
+  - pandas=1.2.3
+  - ipykernel=5.3.4
+  - notebook=6.3.0
+  - docker-py=4.4.4
+  - scikit-learn=0.24.1
+  - matplotlib=3.4.1
+  - bayesian-optimization=1.1.0
