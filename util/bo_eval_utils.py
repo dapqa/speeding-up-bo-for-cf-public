@@ -389,7 +389,7 @@ def evaluate_optimizer_or_load_dump(experiment_settings: dict,
     First param is a dictionary, where keys are experiment IDs, values are dictionaries
     which set optimizer factories. E.g.::
 
-        'Matern 2.5 + ei (ip 1)': {
+        'Matern 2.5 + ucb (ip 1)': {
             'optimizer_factory': make_optimizer_factory(
                 matern_kernel_factory(nu=2.5),
             )
@@ -471,9 +471,9 @@ def evaluate_all_optimizers_or_load_dump(experiment_settings: dict) -> pd.DataFr
             },
             'evaluations': [
                 {
-                    'dump_file_name': 'bo_ml1m_ip1_m25_ei_x10_no1.csv',
+                    'dump_file_name': 'bo_ml1m_ip1_m25_ucb_x10_no1.csv',
                     'optimizers': {
-                        'Matern 2.5 + ei (ip 1)': {
+                        'Matern 2.5 + ucb (ip 1)': {
                             'optimizer_factory': make_optimizer_factory(
                                 matern_kernel_factory(nu=2.5),
                             )
